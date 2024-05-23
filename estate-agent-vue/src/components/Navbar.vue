@@ -1,11 +1,8 @@
 <template>
   <nav class="flex">
-    <div>
-      <a>
-        <img src="" alt="">
-      </a>
-    </div>
+   
     <div class="w-11/12">
+      <NavLogo class="size-40"></NavLogo>
       <UserNav></UserNav>
       <NavLinks></NavLinks>
     </div>
@@ -18,9 +15,10 @@
 
 import UserNav from './UserNav.vue';
 import NavLinks from './NavLinks.vue'
+import NavLogo from './NavLogo.vue'
 
 export default {
-  components: { UserNav, NavLinks },
+  components: { UserNav, NavLinks, NavLogo},
   name: 'Navbar',
   data() {
     return {
