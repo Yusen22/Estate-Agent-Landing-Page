@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-gray-300 w-screen h-20">
-        <ul class="flex items-end h-20 justify-center p-4 space-x-10">
-            <li class="hover:text-gray-700" v-for="link in links">
+    <div class="bg-transparent w-full">
+        <ul class="flex items-end justify-end pr-4 space-x-20">
+            <li class="text-2xl hover:text-gray-700" v-for="link in links">
                 <a href="{{ link.href }}">{{ link.name }}</a>
             </li>
         </ul>
