@@ -2,7 +2,7 @@
   <nav class="flex">
    
     <div class="w-11/12">
-      <NavLogo class="size-40"></NavLogo>
+      <NavLogo></NavLogo>
       <UserNav></UserNav>
       <NavLinks></NavLinks>
     </div>
