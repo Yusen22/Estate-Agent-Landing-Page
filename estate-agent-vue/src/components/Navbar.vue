@@ -5,7 +5,7 @@
         <img src="" alt="">
       </a>
     </div>
-    <div>
+    <div class="w-11/12">
       <UserNav></UserNav>
       <NavLinks></NavLinks>
     </div>
