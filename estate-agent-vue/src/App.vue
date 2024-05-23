@@ -1,10 +1,11 @@
 <script setup>
+import Navbar from './components/Navbar.vue';
 
 </script>
 
 <template>
   <div>
-    <h1 class="text-red-700">Hi</h1>
+    <Navbar></Navbar>
   </div>
 </template>
 
