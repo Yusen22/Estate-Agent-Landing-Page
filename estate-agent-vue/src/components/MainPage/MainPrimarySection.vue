@@ -1,12 +1,8 @@
 <template>
-    <Section class="main-p-section">
-        <MainPageHeader/>
-        <template v-for="panel in panelInfo">
-            <MainGraphicPanel :mainText="this.mainText" :subText="this.subText"/>
-        </template>
-        
-
-    </Section>
+    <div class="w-11/12 mx-auto">
+        <MainPageHeader headerText="Unmatched service you can trust" />
+    
+    </div>
 </template>
 
 <script>
@@ -19,7 +15,7 @@ import MainGraphicPanel from './MainGraphicPanel.vue'
 export default {
     name: 'MainPrimarySection',
     components: { Section, MainPageHeader, MainInfoPanel, MainGraphicPanel },
-    data () {
+    data() {
         return {
             panelInfo: [
                 {
@@ -27,8 +23,7 @@ export default {
                     subText: 'We pride ourselves on our long-standing, quality service to homeowners everywhere. Get in touch today to find out why.',
                     linkText: '',
                     linkAddress: '',
-                    img1: '',
-                    img2: '',
+                    img1: '/Users/elijahwilsher/GITHUB REPOS/Estate-Agent-Landing-Page/estate-agent-vue/src/assets/estate-agent-desk.jpeg',
                 },
                 {
                     mainText: 'Always on hand to help',
@@ -36,7 +31,6 @@ export default {
                     linkText: 'Speak to one of our agents now',
                     linkAddress: '',
                     img1: '',
-                    img2: '',
                 },
                 {
                     mainText: 'Award-winning service',
@@ -44,7 +38,6 @@ export default {
                     linkText: '',
                     linkAddress: '',
                     img1: '',
-                    img2: '',
                 },
                 {
                     mainText: 'Not sure what to look for?',
@@ -52,7 +45,6 @@ export default {
                     linkText: 'Search properties now',
                     linkAddress: '',
                     img1: '',
-                    img2: '',
                 },
                 {
                     mainText: 'Fully-accredited for peace of mind',
@@ -60,7 +52,6 @@ export default {
                     linkText: '',
                     linkAddress: '',
                     img1: '',
-                    img2: '',
                 },
                 {
                     mainText: 'Don`t believe us yet?',
@@ -68,9 +59,8 @@ export default {
                     linkText: '',
                     linkAddress: '',
                     img1: '',
-                    img2: '',
                 },
-               
+
             ]
         }
     }
