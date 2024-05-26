@@ -1,6 +1,6 @@
 <template>
   <nav class="flex relative z-10">
-    <div @scroll="handleScroll" :class="bgColour ? 'bg-white text-black': ''" class=" fixed top-0 left-0 right-0 text-white drop-shadow-md">
+    <div @scroll="handleScroll" :class="bgColour ? 'bg-white !text-black': ''" class=" fixed top-0 left-0 right-0 text-white drop-shadow-md px-28">
       <NavLogo></NavLogo>
       <UserNav></UserNav>
       <NavLinks></NavLinks>
