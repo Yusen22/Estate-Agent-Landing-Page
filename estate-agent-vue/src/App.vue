@@ -2,7 +2,10 @@
 import Navbar from './components/Navbar/Navbar.vue';
 import MainCard from './components/MainCard/MainCard.vue';
 import MainPrimarySection from './components/MainPage/MainPrimarySection.vue'
+import SecondaryCard from './components/SecondCard/SecondaryCard.vue'
 import MyButton from './components/Common/MyButton.vue'
+
+import secondCardImg from './assets/house-roof.jpeg'
 
 </script>
 
@@ -12,13 +15,14 @@ import MyButton from './components/Common/MyButton.vue'
     <Navbar :bgColour="scrolled"></Navbar>
     <MainCard></MainCard>
     <MainPrimarySection></MainPrimarySection>
+    <SecondaryCard :secondCardImg="secondCardImg"></SecondaryCard>
 
   </div>
 </template>
 
 <script>
 export default {
-  components: {Navbar, MainCard, MainPrimarySection, MyButton},
+  components: {Navbar, MainCard, MainPrimarySection, SecondaryCard, MyButton},
   data () {
     return {
       scrolled: false
