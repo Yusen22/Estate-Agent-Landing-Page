@@ -9,7 +9,7 @@ import MyButton from './components/Common/MyButton.vue'
 <template>
   <div>
 
-    <Navbar></Navbar>
+    <Navbar :bgColour="scrolled"></Navbar>
     <MainCard></MainCard>
     <MainPrimarySection></MainPrimarySection>
 
@@ -33,7 +33,7 @@ export default {
     updateScroll() {
       const scroll = window.scrollY
       
-      if(scroll > 10) {
+      if(scroll > 15) {
         this.scrolled = true
         console.log('true')
       }
