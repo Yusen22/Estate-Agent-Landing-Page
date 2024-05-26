@@ -1,8 +1,8 @@
 <template>
-    <div class="info-panel text-center flex flex-col items-center p-6">
-        <h3 class="text-2xl uppercase">{{ mainText }}</h3>
-        <p>{{ subText }}</p>
-        <a href="{{ linkAddress }}">{{ linkText }}</a>
+    <div class="info-panel h-full text-center flex flex-col justify-around items-center p-6">
+        <h3 class="text-6xl uppercase">{{ mainText }}</h3>
+        <p class="p-8">{{ subText }}</p>
+        <a class="text-red-600 font-bold uppercase" href="{{ linkAddress }}">{{ linkText }}</a>
     </div>
 </template>
 
