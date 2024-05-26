@@ -1,6 +1,6 @@
 <template>
   <nav class="flex relative z-10">
-    <div @scroll="handleScroll" :class="scrolled ? 'bg-white text-black': ''" class="w-11/12 fixed top-0 left-0 right-0 text-white drop-shadow-md">
+    <div @scroll="handleScroll" :class="bgColour ? 'bg-white text-black': ''" class=" fixed top-0 left-0 right-0 text-white drop-shadow-md">
       <NavLogo></NavLogo>
       <UserNav></UserNav>
       <NavLinks></NavLinks>
@@ -26,6 +26,7 @@ export default {
       scrolled: false
     }
   },
+  props: ['bgColour'],
   methods: {
     handleScroll() {
       
