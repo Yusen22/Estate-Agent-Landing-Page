@@ -1,7 +1,7 @@
 <template>
-    <div class="w-10/12 mx-auto">
+    <div class="w-9/12 mx-auto">
         <MainPageHeader headerText="Unmatched service you can trust" />
-        <div class="card-panel flex flex-col grid grid-cols-2 grid-rows-3 grid-flow-col gap-8">
+        <div class="card-panel flex flex-col grid grid-cols-2 grid-rows-3 grid-flow-col gap-x-2 bg-yellow-400">
             <div v-for="(panel, index) in panelInfo" :key="index">
                 <template v-if="index % 2 === 0">
                     <MainGraphicPanel :mainText="panel.mainText" :subText="panel.subText" :img1="panel.img1" />
