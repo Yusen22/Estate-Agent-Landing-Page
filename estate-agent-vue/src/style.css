@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Patrick',;
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url('../src/assets/fonts/Patrick_Hand_SC/PatrickHandSC-Regular.ttf') format('truetype');
+    }
+}
