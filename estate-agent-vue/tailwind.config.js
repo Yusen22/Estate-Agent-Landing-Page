@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{vue,css,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'patrick': 'Patrick, ...',
+        'cookie': 'Cookie, ...',
+      },
+    },
   },
   plugins: [],
 }
