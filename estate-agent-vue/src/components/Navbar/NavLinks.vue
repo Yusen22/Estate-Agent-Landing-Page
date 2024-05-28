@@ -1,6 +1,6 @@
 <template>
     <div class="bg-transparent w-full">
-        <ul class="flex items-end justify-end pr-4 pt-3 space-x-20">
+        <ul class="flex items-end justify-end pr-4 py-3 space-x-20">
             <li class="text-xl uppercase shadow-2xl hover:text-gray-700" v-for="link in links">
                 <a href="{{ link.href }}">{{ link.name }}</a>
             </li>
