@@ -39,11 +39,9 @@ export default {
       
       if(scroll > 15) {
         this.scrolled = true
-        console.log('true')
       }
       else {
         this.scrolled = false
-        console.log('false')
       }
     }
   }
