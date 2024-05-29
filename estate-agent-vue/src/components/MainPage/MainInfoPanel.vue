@@ -3,7 +3,7 @@
         <h3 class="text-6xl uppercase">{{ mainText }}</h3>
         <p class="p-8">{{ subText }}</p>
         <div class="flex relative">
-            <a class="relative right-[-2%] flex text-red-600 font-bold uppercase" href="{{ linkAddress }}">{{ linkText }}
+            <a class="relative right-[-2%] flex text-red-600 font-boldest uppercase" href="{{ linkAddress }}">{{ linkText }}
                 <PaperAirplaneIcon class=" w-4 ml-2 left-56"></PaperAirplaneIcon>
             </a>
             
