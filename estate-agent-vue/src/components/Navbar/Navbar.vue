@@ -1,10 +1,10 @@
 <template>
   <nav class="flex relative z-10">
-    <div :class="bgColour ? 'bg-white !text-black' : ''"
-      class="fixed transition top-0 left-0 right-0 text-white drop-shadow-md px-28">
+    <div :class="bgColour ? 'bg-white !text-black drop-shadow-md' : ''"
+      class="fixed transition top-0 left-0 right-0 text-white px-28">
       <NavLogo ></NavLogo>
       <UserNav :isScrolled="bgColour"></UserNav>
-      <NavLinks></NavLinks>
+      <NavLinks class="drop-shadow-md"></NavLinks>
     </div>
   </nav>
 </template>
