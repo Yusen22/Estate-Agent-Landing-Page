@@ -1,5 +1,5 @@
 <template>
-    <div class="z-15 text-white h-full text-center">   
+    <div class="z-15 text-white h-full text-center mb-5">   
         <h1 class="text-6xl font-urbanist tracking-wide">{{ cardHeader }}</h1>
         <p class="py-10 text-md">{{ cardSubtitle }}</p>
         <!-- <MyButton :buttonText="cardLinkText"></MyButton> -->
