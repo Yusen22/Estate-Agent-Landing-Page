@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-transparent w-full">
-        <ul class="flex items-end justify-end pr-4 py-3 space-x-20">
-            <li class="text-xl uppercase shadow-2xl hover:text-gray-700" v-for="link in links">
-                <a href="{{ link.href }}">{{ link.name }}</a>
+    <div class="relative bg-transparent w-full">
+        <ul class="flex items-end justify-end pr-4 py-3 space-x-24">
+            <li class="text-[1.4rem] uppercase font-sans shadow-2xl hover:text-gray-700" v-for="link in links">
+                <a class="tracking-wider font-bold" href="{{ link.href }}">{{ link.name }}</a>
             </li>
         </ul>
     </div>
