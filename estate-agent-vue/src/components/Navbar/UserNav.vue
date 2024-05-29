@@ -1,7 +1,6 @@
 <template>
-  <nav class="flex">
-    <div class="w-full">
-      <ul class="flex items-start justify-end space-x-1 py-4 transition">
+
+      <ul class="flex items-start justify-end space-x-1 my-4 transition">
         <li v-for="(link, index) in userLinks" :key="index" :class="[
           'flex w-1/12 items-center justify-center text-sm text-nowrap px-2',
           { 'border-r': index !== userLinks.length - 1 },
@@ -11,8 +10,6 @@
           <component :is=link.icon class="ml-2 w-4"></component>
         </li>
       </ul>
-    </div>
-  </nav>
 </template>
 
 <script>
