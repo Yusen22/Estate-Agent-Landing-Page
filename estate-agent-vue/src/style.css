@@ -1,13 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    @font-face {
-        font-family: 'Patrick',;
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-        src: url('../src/assets/fonts/Patrick_Hand_SC/PatrickHandSC-Regular.ttf') format('truetype');
-    }
-}
+
