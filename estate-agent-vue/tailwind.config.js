@@ -5,10 +5,12 @@ export default {
     "./src/**/*.{vue,css,js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+    'sans': ['Niramit', 'sans-serif'] 
+    },
     extend: {
       fontFamily: {
-        'patrick': 'Patrick, ...',
-        'cookie': 'Cookie, ...',
+        'urbanist': ['Urbanist', 'sans-serif'],
       },
     },
   },
