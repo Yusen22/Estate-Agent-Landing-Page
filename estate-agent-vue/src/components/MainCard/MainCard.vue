@@ -4,7 +4,7 @@
     </div>
     <div class="absolute top-60 right-0 left-0 flex flex-col items-center">
         <MainCardInfo></MainCardInfo>
-        <SearchBox :tabTextMaster='primSearchTabText' :searchInfo="this.searchInfo"></SearchBox>
+        <SearchBox :tabTextMaster='primSearchTabText' :searchInfo="this.searchInfo" :rangeList="list"></SearchBox>
     </div>
 </template>
 
@@ -28,8 +28,9 @@ export default {
                 {
                     labelText: 'Budget',
                     type: 'range',
-                    placeholder: ''
-                },
+                    placeholder: '',
+                    list: 'house-sales-price'
+                }
             ]
         }
     }
